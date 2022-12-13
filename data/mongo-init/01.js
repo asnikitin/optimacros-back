@@ -3,14 +3,14 @@ let res = [
   db.cars.insert({
     brand: 'bmw',
     name: '120',
-    year: '2009',
-    price: '10000',
+    year: 2010,
+    price: 10000,
   }),
   db.cars.insert({
     brand: 'mercedes-benz',
     name: 'c200',
-    year: '2009',
-    price: '10000',
+    year: 2020,
+    price: 20000,
   }),
   db.createUser(
     {
